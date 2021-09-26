@@ -135,7 +135,6 @@ You'll need to deploy your Strapi CMS first and have your api URL.
 
 Click this button below to clone and deploy this project on [vercel](https://vercel.com).
 
-
 Or you can take a look at the docs to [deploy Next.js](https://nextjs.org/docs/deployment).
 
 Don't forget to update your environment variables:
@@ -160,9 +159,9 @@ You need to generate the dark mode icons too and name them as `dark-16x16.png` a
 The sitemap will be generated dynamically using the `lib/constants` info but you need to also configure the site URL on `public/robots.txt`
 
 ## Ask And Quest
+
 silahkan email kami [dev@abrahamyusuf.my.id](mailto:kontak.abrahamyusuf@gmail.com)
 
 ## License
 
 [MIT License](https://github.com/abraham-yusuf/catatan-abraham-yusuf/blob/main/LICENSE).
-
