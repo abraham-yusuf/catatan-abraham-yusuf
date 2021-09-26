@@ -1,7 +1,7 @@
 {
-  "name": "Magazine",
-  "short_name": "Magazine",
-  "description": "Online magazine starter kit",
+  "name": "Catatan Abraham Yusuf",
+  "short_name": "Abraham Yusuf",
+  "description": "Blog Tempat Berbagi Cerita Dan Pengalaman Teknologi Era 4.0",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#ffffff",
