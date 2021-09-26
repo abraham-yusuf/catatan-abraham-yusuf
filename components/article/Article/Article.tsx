@@ -7,7 +7,7 @@ import { getMediaURL } from '@lib/api'
 import Image from 'next/image'
 
 function Article({ article }: { article: TArticle | undefined }) {
-  if (!article) return <p>Something went wrong</p>
+  if (!article) return <p>Ada Sesuatu yang salah</p>
 
   return (
     <article>

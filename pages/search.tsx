@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-// import { useSearch } from '@lib/hooks/use-search'
+import { useSearch } from '@lib/hooks/use-search'
 import { ArticlesList } from '@components/article'
 import { fetchAPI } from '@lib/api'
 import { InferGetStaticPropsType } from 'next'
@@ -20,7 +20,7 @@ function SearchPage({
   const { q, category, sort } = query
 
   // This hook should work with the API
-  // const { isLoading, data } = useSearch<TArticle>('/articles', query)
+  const { isLoading } = useSearch<TArticle>('/articles', query)
 
   // I'm using a filter implementation due heroku sleep problem
   const filteredArticles = articles.filter((a: TArticle) => {
@@ -44,7 +44,7 @@ function SearchPage({
     <main className="min-h-screen px-4 pt-6 pb-20 flex flex-col mx-auto md:w-3/4 lg:w-2/3 xl:w-7/12">
       <SearchInput categories={categories} />
 
-      {/* {isLoading && <p>Loading...</p>} */}
+      {isLoading && <p>Loading...</p>}
       {sortedArticles && sortedArticles.length !== 0 ? (
         <ArticlesList
           articles={sortedArticles}
