@@ -164,5 +164,5 @@ silahkan email kami [dev@abrahamyusuf.my.id](mailto:kontak.abrahamyusuf@gmail.co
 
 ## License
 
-[MIT License](https://github.com/abraham-yusuf/catatan-abraham-yusuf/LICENSE).
+[MIT License](https://github.com/abraham-yusuf/catatan-abraham-yusuf/blob/main/LICENSE).
 
