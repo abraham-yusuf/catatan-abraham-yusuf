@@ -13,18 +13,18 @@ import { SITE_LOGO, SITE_NAME, SITE_URL } from '@lib/constants'
 export async function getStaticPaths() {
   const articles: TArticle[] = await fetchAPI('/articles')
 
-  return {
-    paths: articles.map((article) => `/articles/${article.slug}`),
-    fallback: true, // Needs to be `true` to enable preview mode
-  }
+  //return {
+  //  paths: articles.map((article) => `/articles/${article.slug}`),
+  //  fallback: true, // Needs to be `true` to enable preview mode
+  // }
 
   // If you have too many articles you can pass no paths at all an generate all the pages at request time.
   // Read more on https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation
 
-  // return {
-  //   paths: [],
-  //   fallback: 'blocking', `blocking` insted of `true` for better SEO https://nextjs.org/docs/basic-features/data-fetching#fallback-blocking
-  // }
+  return {
+    paths: articles.map((article) => `/articles/${article.slug}`),
+    fallback: 'blocking', //`blocking` insted of `true` for better SEO https://nextjs.org/docs/basic-features/data-fetching#fallback-blocking
+  }
 }
 
 export async function getStaticProps({
