@@ -11,7 +11,7 @@ export const SOCIAL_USERNAMES = {
   twitter: 'bram0511',
   instagram: 'ab129h9m',
   facebook: 'AbrahamYusuf1105',
-  youtube: 'UC0VlPne9lI5BQP3LnEOrd9Q',
+  youtube: 'CatatanAbrahamYusuf',
   linkedin: 'abraham-yusuf',
 }
 

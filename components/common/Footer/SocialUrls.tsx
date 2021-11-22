@@ -44,7 +44,7 @@ const SocialUrls = () => {
       {youtube && (
         <li className="px-4">
           <ExternalLink
-            to={`https://youtube.com/channel/${youtube}`}
+            to={`https://youtube.com/c/${youtube}`}
             ariaLabel="Youtube"
           >
             <Youtube width="20" height="20" />
