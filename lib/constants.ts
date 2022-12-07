@@ -9,7 +9,7 @@ export const SITE_LOGO =
 
 export const SOCIAL_USERNAMES = {
   twitter: 'bram0511',
-  instagram: 'ab129h9m',
+  instagram: 'abrahamyusuf.my.id',
   facebook: 'AbrahamYusuf1105',
   youtube: 'CatatanAbrahamYusuf',
   linkedin: 'abraham-yusuf',
