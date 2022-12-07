@@ -5,7 +5,7 @@ import Document, {
   NextScript,
   DocumentContext,
 } from 'next/document'
-import Script from 'next/head'
+
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -19,11 +19,9 @@ class MyDocument extends Document {
         {process.env.NODE_ENV === 'production' ? (
           // Only run GA on Production
           <Head>
-            <Script
+            <script
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}`}
-            strategy="lazyOnload"
-            crossOrigin="anonymous"
           />
             <script
               async
