@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://catatan-abraham-yusuf.vercel.app/sitemap.xml
+Sitemap: https://www.abrahamyusuf.my.id/sitemap.xml
