@@ -1,3 +1,5 @@
+import React from 'react';
+import {Adsense} from '@ctrl/react-adsense';
 import Link from 'next/link'
 import { Markdown } from '@components/common/Markdown'
 import AuthorCard from './AuthorCard'
@@ -41,6 +43,26 @@ function Article({ article }: { article: TArticle | undefined }) {
             height={article.cover.height}
           />
         </div>
+
+      <Adsense
+        client="ca-pub-8284519503817385"
+        slot="6566800785"
+      />
+
+      <Adsense
+        client="ca-pub-8284519503817385"
+        slot="7999958491"
+        style={{ width: 500, height: 300 }}
+        format="auto"
+      />
+
+      <Adsense
+        client="ca-pub-8284519503817385"
+        slot="7999958491"
+        style={{ display: 'block' }}
+        layout="in-article"
+        format="fluid"
+      />
       </header>
 
       <Markdown content={article.content} />
