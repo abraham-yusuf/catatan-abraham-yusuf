@@ -166,3 +166,6 @@ silahkan email kami [dev@abrahamyusuf.my.id](mailto:kontak.abrahamyusuf@gmail.co
 ## License
 
 [MIT License](https://github.com/abraham-yusuf/catatan-abraham-yusuf/blob/main/LICENSE).
+
+## Thanks to
+[Vercel](https://vercel.com/) & [Fly.io](https://fly.io/)
