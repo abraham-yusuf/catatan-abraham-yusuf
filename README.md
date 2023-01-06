@@ -1,5 +1,5 @@
 # Catatan Abraham Yusuf
-NextJS Fronted apps integration with [Strapi CMS for API](https://github.com/abraham-yusuf/api-catatan-abraham-yusuf)
+NextJS Fronted apps integration with [Strapi CMS for API](https://github.com/abraham-yusuf/api-abrahamyusuf)
 
 ## Features
 
