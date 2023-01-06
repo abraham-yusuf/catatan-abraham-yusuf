@@ -2,7 +2,7 @@
 export const TwitterURL = 'https://twitter.com'
 
 // Global Data
-export const SITE_URL = 'https://catatan-abraham-yusuf.vercel.app'
+export const SITE_URL = 'https://www.abrahamyusuf.my.id'
 export const SITE_NAME = 'Catatan Abraham Yusuf'
 export const SITE_LOGO =
   'https://res.cloudinary.com/abrahamyusufdevimeilani/image/upload/v1632691144/Catatan_Abraham_Yusuf_8621a41f9e.png'
